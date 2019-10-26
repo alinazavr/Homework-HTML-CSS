@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <title>Регистрация</title>   
+	</head>
+<body>
+    <center>
+        <img src="politeh-logo.jpg" height="150" widht="200">
+    </center>
+    <form>
+        <fieldset>
+            <h3>Регистрация</h3>
+            <table>
+                <tr>
+                    <td><label>Фамилия*</label></td>
+                    <td><input type="text" required></td>
+                </tr>    
+                <tr>
+                    <td><label>Имя*</label></td>
+                    <td><input type="text" required></td>
+                </tr>  
+                <tr>
+                    <td><label>Отчество</label></td>
+                    <td><input type="text" placeholder="при наличии" ></td>
+                </tr> 
+                <tr>
+                    <td><label>Дата рождения*</label></td>
+                    <td><input type="date" required></td>
+                </tr> 
+            </table>  
+            <p>        
+                <label><input name="gender" type="radio">Женский</label>
+                <label><input name="gender" type="radio">Мужской</label>
+            </p>
+            <fieldset>
+                <legend>Контактная информация</legend>
+                    <table>
+                    <tr>
+                        <td><label>Страна*</label></td>
+                        <td><select name="country" required>
+                            <option value="-">-</option>
+                            <option value="Россия">Россия</option>
+                            <option value="США">США</option>
+                            <option value="Германия">Германия</option>
+                            <option value="Нидерланды">Нидерланды</option>
+                            <option value="Польша">Польша</option>
+                            <option value="Бельгия">Бельгия</option>
+                            <option value="Греция">Греция</option>
+                            <option value="Канада">Канада</option>
+                            <option value="Китай">Китай</option>
+                            <option value="Япония">Япония</option>
+                            <option value="Болгария">Болгария</option>
+                            <option value="Беларусь">Беларусь</option>
+                            <option value="Италия">Италия</option>
+                            <option value="Марока">Мароко</option>
+                            <option value="Казахстан">Казахстан</option>
+                            <option value="Турция">Турция</option>
+                            <option value="Великобритания">Великобритания</option>
+                        </td>
+                    </tr>    
+                    <tr>
+                        <td><label>Город*</label></td>
+                        <td><input type="text" required></td>
+                    </tr>  
+                    <tr>
+                        <td><label>Адресс*</label></td>
+                        <td><input type="text" required></td>
+                    </tr> 
+                    <tr>
+                        <td><label>Номер телефона*</label></td>
+                        <td><input type="number" required placeholder="89008005050"></td>
+                    </tr> 
+                </table>  
+            </fieldset>
+            <fieldset>
+                <legend>Авторизация</legend>
+                    <table>
+                        <tr>
+                            <td><label >Логин*</label></td>
+                            <td><input type="email" required placeholder="Введите email"></td>
+                        </tr>
+                        <tr>
+                            <td><label >Пароль*</label></td>
+                            <td><input type="password" minlenght="4" maxlenght="20" required placeholder="Придумайте пароль"></td>
+                        </tr>  
+                        <tr>
+                            <td><label >Пароль*</label></td>
+                            <td><input type="password" minlenght="4" maxlenght="20"  required placeholder="Повторите пароль"></td>
+                        </tr>                     
+                    </table>
+            </fieldset>
+            <p>Фото профиля*
+                <input type="file" accept="image/*" required>
+            </p>
+            <p>
+                Поля со знаком * - обязательны для заполнения!
+            </p>
+            <p>
+                <input type="reset">
+                <input type="submit">
+            </p>
+            
+        </fieldset>
+    </form>
+</body>
+</html>    
