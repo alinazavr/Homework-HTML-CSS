@@ -13,32 +13,32 @@
             <h3>Регистрация</h3>
             <table>
                 <tr>
-                    <td><label>Фамилия*</label></td>
-                    <td><input type="text" required></td>
+                    <td><label for="surname">Фамилия*</label></td>
+                    <td><input id="surname" type="text" required></td>
                 </tr>    
                 <tr>
-                    <td><label>Имя*</label></td>
-                    <td><input type="text" required></td>
+                    <td><label for="name">Имя*</label></td>
+                    <td><input id="name" type="text" required></td>
                 </tr>  
                 <tr>
-                    <td><label>Отчество</label></td>
-                    <td><input type="text" placeholder="при наличии" ></td>
+                    <td><label for="dad">Отчество</label></td>
+                    <td><input id="dad" type="text" placeholder="при наличии" ></td>
                 </tr> 
                 <tr>
-                    <td><label>Дата рождения*</label></td>
-                    <td><input type="date" required></td>
+                    <td><label for="date">Дата рождения*</label></td>
+                    <td><input id="date" type="date" required></td>
                 </tr> 
             </table>  
             <p>        
-                <label><input name="gender" type="radio">Женский</label>
-                <label><input name="gender" type="radio">Мужской</label>
+                <label for="girl"><input id="girl" name="gender" type="radio">Женский</label>
+                <label for="boy"><input id="boy" name="gender" type="radio">Мужской</label>
             </p>
             <fieldset>
                 <legend>Контактная информация</legend>
                     <table>
                     <tr>
-                        <td><label>Страна*</label></td>
-                        <td><select name="country" required>
+                        <td><label for="country">Страна*</label></td>
+                        <td><select id="country" name="country" required>
                             <option value="-">-</option>
                             <option value="Россия">Россия</option>
                             <option value="США">США</option>
@@ -60,16 +60,16 @@
                         </td>
                     </tr>    
                     <tr>
-                        <td><label>Город*</label></td>
-                        <td><input type="text" required></td>
+                        <td><label for="city">Город*</label></td>
+                        <td><input id="city" type="text" required></td>
                     </tr>  
                     <tr>
-                        <td><label>Адресс*</label></td>
-                        <td><input type="text" required></td>
+                        <td><label for="adress">Адресс*</label></td>
+                        <td><input id="adress" type="text" required></td>
                     </tr> 
                     <tr>
-                        <td><label>Номер телефона*</label></td>
-                        <td><input type="number" required placeholder="89008005050"></td>
+                        <td><label for="mobile">Номер телефона*</label></td>
+                        <td><input id="mobile" type="number" required placeholder="89008005050"></td>
                     </tr> 
                 </table>  
             </fieldset>
@@ -77,16 +77,16 @@
                 <legend>Авторизация</legend>
                     <table>
                         <tr>
-                            <td><label >Логин*</label></td>
-                            <td><input type="email" required placeholder="Введите email"></td>
+                            <td><label for="log">Логин*</label></td>
+                            <td><input id="log" type="email" required placeholder="Введите email"></td>
                         </tr>
                         <tr>
-                            <td><label >Пароль*</label></td>
-                            <td><input type="password" minlenght="4" maxlenght="20" required placeholder="Придумайте пароль"></td>
+                            <td><label for="pas">Пароль*</label></td>
+                            <td><input id="pas" type="password" minlenght="4" maxlenght="20" required placeholder="Придумайте пароль"></td>
                         </tr>  
                         <tr>
-                            <td><label >Пароль*</label></td>
-                            <td><input type="password" minlenght="4" maxlenght="20"  required placeholder="Повторите пароль"></td>
+                            <td><label for="pas1">Пароль*</label></td>
+                            <td><input id="pas1" type="password" minlength="4"  maxlength="20"  required placeholder="Повторите пароль"></td>
                         </tr>                     
                     </table>
             </fieldset>
@@ -100,7 +100,6 @@
                 <input type="reset">
                 <input type="submit">
             </p>
-            
         </fieldset>
     </form>
 </body>
