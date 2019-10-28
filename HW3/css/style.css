@@ -1,0 +1,107 @@
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 70px;
+    text-align: center;
+    background-color: rgba(25, 76, 143, 0.918);
+    margin: 20px -8px 5px -8px;
+    background-attachment: scroll;
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: 100%; 
+    background-attachment: no-repeat;
+    background-attachment: fixed;
+    background-position: 100%;
+} 
+
+.block {
+    background-color: rgba(207, 162, 243, 0.589);
+    color: rgb(0, 0, 0);
+    margin: 10px 400px 20px 400px;
+    padding: 10px 10px 5px 10px;
+}
+
+p {
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Poiret One';
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    margin: 2px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(245, 70, 114, 0.836);
+    color: rgb(49, 15, 58);
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
+a {
+    color: rgb(49, 15, 58);
+    }
+
+p.color {
+    text-align: right;
+    margin: 8px;
+}    
+
+input {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Poiret One';
+    color: rgb(17, 8, 58);
+    background-color: rgba(255, 233, 38, 0.836);
+    margin: 5px 120px 5px 130px;
+    padding: 5px;
+    border-top-left-radius: 20px;    
+    border-bottom-right-radius: 20px; 
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 5px;
+}
+
+nav ul {
+	padding-inline-start: 0px;
+}	
+
+nav {
+    font-size: 20px;
+    text-align: right;
+    background-color: rgba(25, 76, 143, 0.918);
+    font-family: 'Poiret One';
+    margin: 5px -8px 5px 1000px;
+}
+
+.form input {
+    width: 70%;
+    padding: 5px;
+    margin: 10px 50px 10px 50px;
+    background: none;
+    color: #4f14bb;
+    border: none;
+    border-bottom: 1px solid #0a0a0abe;
+    outline: none;
+}
+
+label {
+    text-align: right;
+    font-family: 'Poiret One';
+}
+
+button {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Poiret One';
+    color: rgb(17, 8, 58);
+    background-color: rgba(255, 233, 38, 0.836);
+    margin: 5px 120px 5px 170px;
+    padding: 5px;
+    border-top-left-radius: 20px;    
+    border-bottom-right-radius: 20px; 
+}
