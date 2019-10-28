@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Travelling</title>
+        <link href="D:/Алина/ИТМО\HTML CSS/3/HW3/css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap&subset=cyrillic" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Travelling</h1>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="1.html">Главная</a></li>
+                        <li>Контакты</li>
+                        <li><a href="2.html">Опрос</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="block">
+                <p>
+                    Эй, путешественник! Мне очень интересно, где ты был в послдний раз, расскажи мне, может, тоже съезжу!
+                </p>
+                <form action="#" class="form">
+                    <div>
+                        <label for="contry">
+                            В какой стране ты был в последний раз?</label>
+                        <p><input id="country" type="text" required></p>
+                    </div>
+                    <div>
+                        <label for="money">
+                            Сколько денег ты берешь с собой обычно?</label>
+                        <p><input id="money" type="text" required></p>
+                    </div> 
+                    <div class="block-2">
+                        <p>Как ты планируешь путешествие?</p>
+                        <label for="alone"><input id="alone" name="trip" type="radio">Самостоятельно</label>
+                        <label for="agency"><input id="agency" name="trip" type="radio">Агенство</label>
+                    </div> 
+                    <div>
+                        <label for="ti">
+                            Главные достопримечательности?</label>
+                        <p><input id="ti" type="text" required></p>    
+                    </div>
+                    <div class="block-2">
+                        <p>Поехал бы ещё раз?</p>
+                        <label for="yes"><input id="yes" name="yn" type="radio">Конечно</label>
+                        <label for="mb"><input id="mb" name="yn" type="radio">Наврятли</label>
+                        <label for="no"><input id="no" name="yn" type="radio">Точно нет</label>
+                    </div> 
+                    <div class="block-2">
+                        <p>Главные вещи, которые необходимо взять с собой?</p>
+                            <label for="q"><input id="q" name="main" type="checkbox">Хорошую компанию</label>
+                            <label for="w"><input id="w" name="main" type="checkbox">Аптечку</label>
+                            <label for="e"><input id="e" name="main" type="checkbox">Запас денег</label>
+                            <label for="r"><input id="r" name="main" type="checkbox">Мобильный роуминг</label>
+                            <label for="t"><input id="t" name="main" type="checkbox">Права</label>
+                            <label for="a"><input id="a" name="main" type="checkbox">Сигареты</label>
+                            <label for="s"><input id="s" name="main" type="checkbox">Сувениры с родины</label>
+                            <label for="d"><input id="d" name="main" type="checkbox">Много одежды</label>
+                    </div>
+                    <div>
+                        <button type="submit">Отправить</button>
+                    </div>                                             
+                </form>
+            </div>
+    </body>
+</html>            
