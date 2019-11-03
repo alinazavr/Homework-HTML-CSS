@@ -1,0 +1,98 @@
+body {
+    background-image: url("../img/bg2.jpg");
+    background-size: 100%; 
+    background-attachment: no-repeat;
+    background-attachment: fixed;
+    background-position: 100%;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.918);
+    color: white;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    font-size: 20px;
+    font-family: 'Alegreya SC', serif;
+}
+
+header > h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: -10px;
+}
+
+/* выпадающие списки */
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.submenu{
+    position: absolute;
+    display: none;
+}
+
+li:hover > .submenu{
+    display: block;
+    border: 1px solid white;
+    padding: 10px 20px;
+    width: 170px;
+    font-size: 17px;
+    background-color:  rgba(0, 0, 0, 0.918);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+/*модальное окно*/
+
+.form:target {
+    display: block;
+    position: fixed;
+    top: 30vh;  
+}
+
+.form {
+    display: none;
+}
+
+.kabinet {
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+
+fieldset {
+    border: solid 2px white;
+}
+
+fieldset a {
+    text-decoration: none;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+
+fieldset p {
+    margin: 0;
+}
+
+fieldset a:hover {
+    background-color: black;
+    color: white;
+}
